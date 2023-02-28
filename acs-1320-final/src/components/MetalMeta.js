@@ -15,9 +15,9 @@ function MetalMeta() {
   return (
     <div className="MetalMeta">
       <h4>Metal Bands 🤘</h4>
-      <p>Bands: {totalBands}</p>
-      <p>Styles: {totalSyles}</p>
-      <p>Total Fans: {totalFans.toLocaleString('en')}</p>
+      <p className="meta">Bands: {totalBands}</p>
+      <p className="meta">Styles: {totalSyles}</p>
+      <p className="meta">Total Fans: {totalFans.toLocaleString('en')}</p>
     </div>
   );
 }
