@@ -1,0 +1,17 @@
+.Like {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+button {
+  background-color: rgb(55, 50, 50);
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.likes {
+  font-size: 40px;
+}
